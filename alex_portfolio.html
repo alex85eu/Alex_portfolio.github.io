@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alex Portfolio Website</title>
+        <link rel="stylesheet" href="./alex_portfolio.css">
+        <!--
+            GOOGLE FONTS LINK
+        -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Poppins:wght@400;500;600;700;800&display=swap"
+  rel="stylesheet">
+        
+        <!--
+            ION ICON LINK
+        -->
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+        <!--
+            HTML BODY
+        -->
+    </head>
+        <body>
+            <header class="header" data-head>
+                <div class="container">
+                    <a href="#" class="h2 logo">
+                        ALEXANDRU
+                    </a>
+                    <nav class="navbar active" data-navbar>
+                        <ul class="nav-list">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-item-link" data-nav-link>
+                                    Home
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#portfolio" class="nav-item-link" data-nav-link>
+                                    Portfolio
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#skills" class="nav-item-link" data-nav-link>
+                                    Skills
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="btn-toggle-menu" data-toggle-menu>
+                        <span class="line top"></span>
+                        <span class="line middle"></span>
+                        <span class="line bottom"></span>
+                    </button>
+                </div>
+            </header>  
+            
+            <!--
+                HERO SECTION
+            -->
+
+            <section class="section hero" id="home">
+                <div class="container">
+                  <div class="hero-content">
+                    <h4 class="hero-subtitle">
+                        Bernard Smith
+                    </h4>
+                    <h2 class="hero-title">
+                        Creative Designer Based In UK
+                    </h2>
+                    <ul class="hero-list">
+                        <li class="hero-item">
+                            <span class="span">
+                                Web Development 
+                            </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </li>
+                        <li class="hero-item">
+                            <span class="span">
+                                Graphic Design
+                            </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </li>
+                        <li class="hero-item">
+                            <span class="span">
+                                Digital Marketing 
+                            </span>
+                            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                        </li>
+                    </ul>
+                 </div>
+                 <div class="figure-banner">
+                    <img src="./assets/images/hero-banner.jpg" width="240" height="320" alt="her1" loading="lazy"
+                      >
+                      <div class="figure-bck"></div>
+                 </div>
+
+
+                </div>
+            </section>
+
+            <!--
+                PORTFOLIO SECTION
+            -->
+            <section class="section portfolio" id="portfolio">
+                <div class="container">
+                    <h4 class="h4 hero-subtitle">
+                        Portfolio
+                    </h4>
+                    <h2 class="h2 hero-title">
+                        Websites
+                    </h2>
+                    <ul class="portfolio-list">
+                        <li class="portfolio-item">
+                            <a href="../Foodie/hamburger.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./foodie_link.png" width="240" height="300" alt="img" loading="lazy" class="img-cover">
+                            </a>
+                        </li>
+                        <li class="portfolio-item">
+                            <a href="../Foodie/hamburger.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./volti_link.png" width="240" height="300" alt="img" loading="lazy" class="img-cover">
+                            </a>
+                        </li>
+                        <li class="portfolio-item">
+                            <a href="../Foodie/hamburger.html" target="_blank" class="portfolio-link hover-img">
+                                <img src="./uniengine_link.png" width="240" height="300" alt="img" loading="lazy" class="img-cover">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--
+                skills section
+            -->
+
+            <section class="section skills" id="skills">
+                <div class="container">
+                    <div class="skills-content">
+                    <h4 class="h4 hero-subtitle">
+                        Skills
+                    </h4>
+                    <h2 class="h2 hero-title">
+                        Programming Skills
+                    </h2>
+                    <p class="hero-text">
+                        New web developer ,learning new commands each day ever improving code , creating designs and websites
+                    </p>
+
+                    <ul class="skills-content">
+                        <li class="skills-item">
+                            <span>Html</span>
+                            <div class="skills-progress progress-fill"></div>
+                        </li>
+                        <li class="skills-item">
+                            <span>CSS</span>
+                            <div class="skills-progress progress-fill_cs"></div>
+                        </li>
+                        <li class="skills-item">
+                            <span>JS</span>
+                            <div class="skills-progress progress-fill_js"></div>
+                        </li>
+                    </ul>
+                     </div>
+                     <div class="figure-skills">
+                        <img src="./assets/images/portfolio-1.jpg" height="440" width="330" alt="skills">
+                     </div>
+                </div>
+            </section>
+
+            <!--
+                LINK TO JS 
+            -->      
+            <script src="./alex_portfolio.js"></script>  
+
+        </body>
+    
+</html>
