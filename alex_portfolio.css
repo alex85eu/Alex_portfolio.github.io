@@ -262,6 +262,7 @@ HERO SECTION
 
 .hero-subtitle{
     margin-block: 10px;
+    margin-inline-start: 20px;
     color:var(--theme-color);
     font-size: var(--fs-13);
 }
@@ -417,4 +418,5 @@ SKILLS SECTION
     left:0;
 
 }
+
 
