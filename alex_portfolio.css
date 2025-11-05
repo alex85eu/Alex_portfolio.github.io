@@ -37,7 +37,7 @@
 
 /*Section, shadow,radius ,transition*/
 
---section-padding: 80px;
+--section-padding: 20px;
 --shadow: 0 0 20px hsla(0, 0%, 0%, 0.08);
 --radius-10: 10px;
 --radius-8: 8px;
@@ -309,9 +309,8 @@ PORTFOLIO SECTION
 }
 .portfolio-list{
     margin-block:20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+     gap:40px;
 }
 .portfolio-item{   
     margin-inline: 10px;
@@ -416,4 +415,5 @@ SKILLS SECTION
     position: absolute;
     top:30px;
     left:0;
+
 }
