@@ -37,7 +37,7 @@
 
 /*Section, shadow,radius ,transition*/
 
---section-padding: 20px;
+--section-padding: 10px;
 --shadow: 0 0 20px hsla(0, 0%, 0%, 0.08);
 --radius-10: 10px;
 --radius-8: 8px;
@@ -138,10 +138,10 @@ html{
     margin-left:auto;
 }
 .container{
-    padding-inline: var(--section-padding);
+    padding-inline: 10px;
 }
 .section{
-    padding-inline:var(--section-padding);
+    padding-inline:10px;
 }
 
 .img-cover {
@@ -417,3 +417,4 @@ SKILLS SECTION
     left:0;
 
 }
+
