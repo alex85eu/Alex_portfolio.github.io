@@ -2,9 +2,6 @@
   #style.css
 \*-----------------------------------*/
 
-/**
- * copyright 2022 @codewithsadee 
- */
 
 
 
@@ -662,7 +659,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/shirt-1.jpg');
+   content: url('./fashion_images/products/shirt-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -672,7 +669,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/jacket-5.jpg');
+   content: url('./fashion_images/products/jacket-5.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -682,7 +679,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/clothes-3.jpg');
+   content: url('./fashion_images/products/clothes-3.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -692,7 +689,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/shoe-2.jpg');
+   content: url('./fashion_images/products/shoe-2.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -702,7 +699,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/watch-3.jpg');
+   content: url('./fashion_images/products/watch-3.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -712,7 +709,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/watch-1.jpg');
+   content: url('./fashion_images/products/watch-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -722,7 +719,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/party-wear-1.jpg');
+   content: url('./fashion_images/products/party-wear-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -732,7 +729,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/jacket-1.jpg');
+   content: url('./fashion_images/products/jacket-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -742,7 +739,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/sports-2.jpg');
+   content: url('./fashion_images/products/sports-2.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
@@ -752,13 +749,13 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/shoe-1.jpg');
+   content: url('./fashion_images/products/shoe-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_11{
-   content: url('./assets/images/products/shoe-1_1.jpg');
+   content: url('./fashion_images/products/shoe-1_1.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
@@ -769,83 +766,83 @@ NEW PRODUCTS SECTION
    height: 100%;
    display: block;
    object-fit: cover;
-   content: url('./assets/images/products/shorts-1.jpg');
+   content: url('./fashion_images/products/shorts-1.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_12{
-   content: url('./assets/images/products/shorts-2.jpg');
+   content: url('./fashion_images/products/shorts-2.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_10{
-   content: url('./assets/images/products/sports-4.jpg');
+   content: url('./fashion_images/products/sports-4.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_9{
-   content: url('./assets/images/products/jacket-2.jpg');
+   content: url('./fashion_images/products/jacket-2.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_8{
-   content: url('./assets/images/products/party-wear-2.jpg');
+   content: url('./fashion_images/products/party-wear-2.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_7{
-   content: url('./assets/images/products/watch-2.jpg');
+   content: url('./fashion_images/products/watch-2.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_6{
-   content: url('./assets/images/products/watch-4.jpg');
+   content: url('./fashion_images/products/watch-4.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_5{
-   content: url('./assets/images/products/shoe-2_1.jpg');
+   content: url('./fashion_images/products/shoe-2_1.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_4{
-   content: url('./assets/images/products/clothes-4.jpg');
+   content: url('./fashion_images/products/clothes-4.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_3{
-   content: url('./assets/images/products/jacket-6.jpg');
+   content: url('./fashion_images/products/jacket-6.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image_2{
-   content: url('./assets/images/products/shirt-2.jpg');
+   content: url('./fashion_images/products/shirt-2.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
    background-size: contain;
 }
 .new_products_wrapper:is(:hover,:focus-within) .flip_image{
-   content: url('./assets/images/products/jacket-4.jpg');
+   content: url('./fashion_images/products/jacket-4.jpg');
    transform: scale(1.1);
    background-position: center;
    background-repeat: no-repeat;
