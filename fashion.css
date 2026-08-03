@@ -649,7 +649,7 @@ NEW PRODUCTS SECTION
    height: 100%;
    object-fit: cover;
    display: block;
-   content: url('./assets/images/products/jacket-3.jpg');
+   content: url('./fashion_images/products/jacket-3.jpg');
    background-position: center;
    background-size: contain;
    transition: var(--transition-timing);
